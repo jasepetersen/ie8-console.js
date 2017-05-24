@@ -22,6 +22,38 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-body {
-    background-color:blue;
+#nav {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0;
+}
+
+#nav li {
+    display: inline;
+    margin-right: 10px;   
+}
+
+#nav a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    color: gold;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#repo {
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    color: gold;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  background: linear-gradient(0deg, blue, darkblue 80%) no-repeat;
+  z-index: -1;
 }

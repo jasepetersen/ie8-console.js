@@ -7,7 +7,7 @@ https://jasepetersen.github.io/ie8-console.js/
 
 ## Getting Started
 1. Include `ie8-console.js` in your web page.  Optionally include `ie8-console.css` to make things pretty.
-2. Add a call to `console.display()` to view the console output.  This is polyfilled, so if the `console` object exists, it's simply treated as a noop.
+2. Add a call to `console.display()` to view the console output.  This is polyfilled, so if the `console` object exists, it's simply treated as a noop.  This means you can include it and still do side-by-side testing in a modern browser.
 
 ## Functions
 
