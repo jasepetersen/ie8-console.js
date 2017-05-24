@@ -1,0 +1,38 @@
+#ie8-console {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    height: 40%;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: white;
+}
+
+#ie8-console ol {
+    -webkit-padding-start: 20px;        
+}
+
+#ie8-console li {
+    list-style: none;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+    font-size: small;
+}
+
+.ie8-console-group {
+    font-weight: 900;
+}
+
+.ie8-console-log {
+    color: blue;
+}
+
+.ie8-console-warn {
+    color: darkorange;
+    background-color: lemonchiffon;
+}
+
+.ie8-console-error {
+    color: red;
+    background-color: lightpink;
+}
