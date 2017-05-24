@@ -1,4 +1,4 @@
-# ie8-console
+# ie8-console.js
 
 A `console` polyfill that actually lets you view the messages you're logging!  Necessitated by the not-yet-dead Internet Explorer 8.
 
