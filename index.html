@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ie8-console.js Demo</title>
+        <link rel="stylesheet" type="text/css" href="ie8-console.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="demo/ie8-console-demo.css" media="screen" />
+        <script src="demo/ie8-console-demo.js"></script>
+    </head>
+    <body>
+        <script>
+        console.time();
+        console.group("Some day my prince will come");
+        console.assert(false,"My thing failed");
+        console.assert(true,"My thing failed");
+        console.count("I counted");
+        console.count("I counted");
+        console.count("I counted");
+        console.debug("horse and buggy");
+        console.dir();
+        console.dirxml();
+        console.error("Uh oh");
+        console.info("FYI");
+        console.log("Wood");
+        console.groupEnd();
+        console.timeEnd();
+        console.time("timer");
+        console.groupCollapsed();
+        console.warn("ing");
+        console.timeEnd("timer");
+        console.groupEnd();
+        console.msIsIndependentlyComposed();
+        console.exception("e");
+        console.display();
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        console.log("log");
+        setTimeout(function(){
+            console.log("after time");
+        },2000)
+        </script>
+    </body>
+</html>
